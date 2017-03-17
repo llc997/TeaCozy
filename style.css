@@ -1,0 +1,65 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+/* HEADER */
+header {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  display: inline;
+  height: 50px;
+  margin: 10px;
+}
+.nav {
+  display: inline;
+}
+.nav a {
+  color: seashell;
+  padding: 0 20px;
+}
+
+/* MISSION */
+#mission {
+  background-image: url("./images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  padding-top: 70px;
+}
+
+#featured-tea {
+  width: 1000px;
+
+}
+#featured-tea img {
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+}
+#locations {
+  height: 500px;
+}
+footer {
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
