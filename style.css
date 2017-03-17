@@ -35,6 +35,12 @@ header img {
   color: seashell;
   padding: 0 20px;
 }
+.main {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
 /* MISSION */
 #mission {
@@ -42,6 +48,7 @@ header img {
   width: 1200px;
   height: 700px;
   padding-top: 70px;
+  width: 100%;
 }
 .mission-bar {
   display: flex;
@@ -71,10 +78,21 @@ header img {
   display: inline-flex;
 }
 
-
 /* LOCATIONS */
 #locations {
+  background-image: url("./images/img-locations-background.jpg");
+  background-size: cover;
   height: 500px;
+  justify-content: center;
+  display: block;
+  padding-top: 20px;
+}
+.box {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+
 }
 footer {
   height: 200px;
