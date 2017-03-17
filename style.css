@@ -43,16 +43,36 @@ header img {
   height: 700px;
   padding-top: 70px;
 }
-
+.mission-bar {
+  display: flex;
+  display: block;
+  background-color: black;
+  position: relative;
+  top: 300px;
+  padding: 1px 0;
+}
+/* TEA OF THE MONTH */
 #featured-tea {
   width: 1000px;
-
 }
-#featured-tea img {
+.tea-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+.tea {
+  padding: 0px 20px;
+}
+.tea-gallery img {
   height: 200px;
   width: 300px;
   display: inline-flex;
 }
+
+
+/* LOCATIONS */
 #locations {
   height: 500px;
 }
